@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.86f82229.chunk.css",
-    "main.js": "/static/js/main.946b5950.chunk.js",
-    "main.js.map": "/static/js/main.946b5950.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.22ff9d13.js",
-    "runtime-main.js.map": "/static/js/runtime-main.22ff9d13.js.map",
-    "static/css/2.e426f036.chunk.css": "/static/css/2.e426f036.chunk.css",
-    "static/js/2.34a1a30d.chunk.js": "/static/js/2.34a1a30d.chunk.js",
-    "static/js/2.34a1a30d.chunk.js.map": "/static/js/2.34a1a30d.chunk.js.map",
-    "static/js/3.5a83dc63.chunk.js": "/static/js/3.5a83dc63.chunk.js",
-    "static/js/3.5a83dc63.chunk.js.map": "/static/js/3.5a83dc63.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/2.e426f036.chunk.css.map": "/static/css/2.e426f036.chunk.css.map",
-    "static/css/main.86f82229.chunk.css.map": "/static/css/main.86f82229.chunk.css.map",
-    "static/js/2.34a1a30d.chunk.js.LICENSE.txt": "/static/js/2.34a1a30d.chunk.js.LICENSE.txt"
+    "main.css": "/prose-tagger/static/css/main.86f82229.chunk.css",
+    "main.js": "/prose-tagger/static/js/main.946b5950.chunk.js",
+    "main.js.map": "/prose-tagger/static/js/main.946b5950.chunk.js.map",
+    "runtime-main.js": "/prose-tagger/static/js/runtime-main.deab33c5.js",
+    "runtime-main.js.map": "/prose-tagger/static/js/runtime-main.deab33c5.js.map",
+    "static/css/2.e426f036.chunk.css": "/prose-tagger/static/css/2.e426f036.chunk.css",
+    "static/js/2.a3301b17.chunk.js": "/prose-tagger/static/js/2.a3301b17.chunk.js",
+    "static/js/2.a3301b17.chunk.js.map": "/prose-tagger/static/js/2.a3301b17.chunk.js.map",
+    "static/js/3.5a83dc63.chunk.js": "/prose-tagger/static/js/3.5a83dc63.chunk.js",
+    "static/js/3.5a83dc63.chunk.js.map": "/prose-tagger/static/js/3.5a83dc63.chunk.js.map",
+    "index.html": "/prose-tagger/index.html",
+    "static/css/2.e426f036.chunk.css.map": "/prose-tagger/static/css/2.e426f036.chunk.css.map",
+    "static/css/main.86f82229.chunk.css.map": "/prose-tagger/static/css/main.86f82229.chunk.css.map",
+    "static/js/2.a3301b17.chunk.js.LICENSE.txt": "/prose-tagger/static/js/2.a3301b17.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.22ff9d13.js",
+    "static/js/runtime-main.deab33c5.js",
     "static/css/2.e426f036.chunk.css",
-    "static/js/2.34a1a30d.chunk.js",
+    "static/js/2.a3301b17.chunk.js",
     "static/css/main.86f82229.chunk.css",
     "static/js/main.946b5950.chunk.js"
   ]
