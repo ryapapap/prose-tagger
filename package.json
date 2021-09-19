@@ -1,5 +1,6 @@
 {
   "name": "text-analyzer",
+  "homepage": "https://ryapapap.github.io/prose-tagger",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
