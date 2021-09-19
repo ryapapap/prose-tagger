@@ -1,38 +1,130 @@
+/*
+remaining problems:
+- how to have more types?
+- style auto-tag
+- style while auto-tag is processing/readonly
+
+*/
+
+
+html, body, #root, .App { 
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  line-height: 1.5em;
+  letter-spacing: 0.05rem;
+}
+
 .App {
-  text-align: center;
+  margin: 0 20px 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.editor-container {
+  margin: 0 auto 20px;
+  min-height: 500px;
+  max-width: 900px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.DraftEditor-root {
+  border: 1px solid #ccc;
+  border-top: none;
+  padding: 20px 15px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.sticky-inner-wrapper {
+  background: white;
+  z-index: 5;
+}
+
+.button-container {
+  height: 70px;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.left-buttons-container {
+  display: flex;
+}
+
+.save-load-btns {
+  margin-left: 15px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+}
+
+.pos-toolbar {
+  display: flex;
+}
+
+.pos-buttons {
+  padding: 10px;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  border-right: 1px solid black;
 }
 
-.App-link {
-  color: #61dafb;
+.pos-buttons:last-of-type {
+  border-right: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.pos-row { 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.pos-color {
+  width: 15px;
+  height: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.pos-button {
+  text-transform: lowercase;
+  font-size: 16px;
+  border: none;
+  background: none;
+  border-radius: 5px;
+  transition: all 0.1s ease-out;
+}
+
+.pos-button:hover, .pos-button:focus {
+  background: #ccc;
+}
+
+.filter-btn {
+  border: none;
+  background: none;
+  color: #aaa;
+  font-style: italic;
+  font-size: 16px;
+  transition: all 0.15s ease-out;
+}
+
+.filter-btn:hover, .filter-btn:focus, .filter-btn.filtered {
+  color: #000;
+}
+
+input {
+  display: none;
+}
+
+label {
+  border: 1px solid rgb(118, 118, 118);
+  border-radius: 3px;
+  background-color: rgb(239, 239, 239);
+  font-size: 13.3333px;
+  text-align: center;
+  padding: 1px 6px;
+  margin: 0;
+  font-family: Arial;
+  letter-spacing: normal;
+  line-height: normal;
+}
+
+label:hover, label:focus {
+  background-color: rgb(225,225,225);
 }
