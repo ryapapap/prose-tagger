@@ -1,12 +1,3 @@
-/*
-remaining problems:
-- how to have more types?
-- style auto-tag
-- style while auto-tag is processing/readonly
-
-*/
-
-
 html, body, #root, .App { 
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
@@ -15,7 +6,7 @@ html, body, #root, .App {
 }
 
 .App {
-  margin: 0 20px 20px;
+  margin: 0 20px 50px;
 }
 
 .editor-container {
@@ -127,4 +118,23 @@ label {
 
 label:hover, label:focus {
   background-color: rgb(225,225,225);
+}
+
+.github-link {
+  position: fixed;
+  right: 0px;
+  bottom: 0;
+  border: 1px solid #aaa;
+  border-top-left-radius: 3px;
+  background-color: white;
+  z-index: 10;
+  border-bottom: none;
+  padding: 10px;
+}
+
+.github-link a {
+  text-decoration: none;
+}
+.github-link svg {
+  margin-bottom: -1.5px;
 }

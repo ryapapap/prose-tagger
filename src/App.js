@@ -9,14 +9,19 @@ import natural from 'natural';
 import Sticky from 'react-stickynode';
 import {RiFilterFill} from 'react-icons/ri';
 import {FaRemoveFormat} from 'react-icons/fa';
+import {AiFillGithub} from 'react-icons/ai';
 // talisman package also has potential, different tokenizers, like syllables...
 // would be nice to find a chunking algorithm to get nun phrases, etc...
 // also would be nice to find phonetics algorithm that converts to IPA (alphabet)
 // to look at rhymes and stressed/unstressed syllables
 
 /*
-  remaining:
-  - save/load
+  next steps:
+  - perf/readonly style
+  - adjustable tags? (like what if prepositions or phrases)
+  - look into nlp chunker ?
+  - hosted/canonical examples?
+  - make code not suck :)
 */
 
 const {hasCommandModifier} = KeyBindingUtil;
@@ -368,6 +373,9 @@ function App() {
   return (
     <div className="App">
       <MyEditor />
+      <div className="github-link">
+        <a href="https://github.com/ryapapap/prose-tagger"> Source <AiFillGithub /></a>        
+      </div>
     </div>
   );
 }
