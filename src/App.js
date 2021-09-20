@@ -200,17 +200,17 @@ function MyEditor(props) {
   }
 
   function myKeyBindingFn(e) {
-    if (e.keyCode === 78 /* `N` key */ && hasCommandModifier(e)) {
+    if (e.keyCode === 66 /* `B` key */ && hasCommandModifier(e)) {
       return 'noun';
     } else if (e.keyCode === 71 /* `G` key */ && hasCommandModifier(e)) {
       return 'verb';
     } else if (e.keyCode === 74 /* `J` key */ && hasCommandModifier(e)) {
       return 'adjective';
-    } else if (e.keyCode === 84 /* `T` key */ && hasCommandModifier(e)) {
+    } else if (e.keyCode === 75 /* `K` key */ && hasCommandModifier(e)) {
       return 'adverb';
     } else if (e.keyCode === 72 /* `H` key */ && hasCommandModifier(e)) {
       return 'punctuation';
-    } else if (e.keyCode === 66 /* `B` key */ && hasCommandModifier(e)) {
+    } else if (e.keyCode === 73 /* `I` key */ && hasCommandModifier(e)) {
       return 'clearTag';
     }
     return getDefaultKeyBinding(e);
