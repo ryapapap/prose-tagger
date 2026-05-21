@@ -5,7 +5,11 @@ import {Editor, EditorState,
   convertToRaw, convertFromRaw} from 'draft-js';
 import 'draft-js/dist/Draft.css';
 import './App.css';
-import natural from 'natural';
+import { WordPunctTokenizer } from 'natural/lib/natural/tokenizers/regexp_tokenizer';
+import BrillPOSTagger from 'natural/lib/natural/brill_pos_tagger/lib/Brill_POS_Tagger';
+import Lexicon from 'natural/lib/natural/brill_pos_tagger/lib/Lexicon';
+import RuleSet from 'natural/lib/natural/brill_pos_tagger/lib/RuleSet';
+const natural = { WordPunctTokenizer, BrillPOSTagger, Lexicon, RuleSet };
 import Sticky from 'react-stickynode';
 import {RiFilterFill} from 'react-icons/ri';
 import {FaRemoveFormat} from 'react-icons/fa';
